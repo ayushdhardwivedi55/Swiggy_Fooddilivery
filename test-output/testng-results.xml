@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-16T21:51:12 IST" name="SwiggyAPI-TestSuite" finished-at="2025-05-16T21:51:17 IST" duration-ms="5676">
+    <groups>
+    </groups>
+    <test started-at="2025-05-16T21:51:12 IST" name="SwiggyAPI-ParallelTests" finished-at="2025-05-16T21:51:17 IST" duration-ms="5676">
+      <class name="Swiggy.MenuTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Swiggy.MenuTests@6ebd78d1]" started-at="2025-05-16T21:51:12 IST" name="setup" finished-at="2025-05-16T21:51:13 IST" duration-ms="1315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="NottestGetMenuByRestaurant()[pri:0, instance:Swiggy.MenuTests@6ebd78d1]" started-at="2025-05-16T21:51:13 IST" name="NottestGetMenuByRestaurant" finished-at="2025-05-16T21:51:16 IST" duration-ms="2556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NottestGetMenuByRestaurant -->
+        <test-method signature="testGetMenuByRestaurant()[pri:0, instance:Swiggy.MenuTests@6ebd78d1]" started-at="2025-05-16T21:51:16 IST" name="testGetMenuByRestaurant" finished-at="2025-05-16T21:51:17 IST" duration-ms="1625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetMenuByRestaurant -->
+      </class> <!-- Swiggy.MenuTests -->
+      <class name="Swiggy.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Swiggy.LoginTest@7728643a]" started-at="2025-05-16T21:51:12 IST" name="setup" finished-at="2025-05-16T21:51:13 IST" duration-ms="1315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="InValidtestUserLogin()[pri:0, instance:Swiggy.LoginTest@7728643a]" started-at="2025-05-16T21:51:13 IST" name="InValidtestUserLogin" finished-at="2025-05-16T21:51:16 IST" duration-ms="3041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InValidtestUserLogin -->
+        <test-method signature="ValidtestUserLogin()[pri:0, instance:Swiggy.LoginTest@7728643a]" started-at="2025-05-16T21:51:16 IST" name="ValidtestUserLogin" finished-at="2025-05-16T21:51:16 IST" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidtestUserLogin -->
+      </class> <!-- Swiggy.LoginTest -->
+      <class name="Swiggy.RestaurantsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Swiggy.RestaurantsTest@1af7f54a]" started-at="2025-05-16T21:51:12 IST" name="setup" finished-at="2025-05-16T21:51:13 IST" duration-ms="1315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testGetRestaurants()[pri:0, instance:Swiggy.RestaurantsTest@1af7f54a]" started-at="2025-05-16T21:51:13 IST" name="testGetRestaurants" finished-at="2025-05-16T21:51:16 IST" duration-ms="3039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetRestaurants -->
+      </class> <!-- Swiggy.RestaurantsTest -->
+      <class name="Swiggy.OrderSuccessTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Swiggy.OrderSuccessTest@3228d990]" started-at="2025-05-16T21:51:12 IST" name="setup" finished-at="2025-05-16T21:51:13 IST" duration-ms="1315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCheckoutSuccessMessage()[pri:0, instance:Swiggy.OrderSuccessTest@3228d990]" started-at="2025-05-16T21:51:13 IST" name="testCheckoutSuccessMessage" finished-at="2025-05-16T21:51:17 IST" duration-ms="4179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckoutSuccessMessage -->
+      </class> <!-- Swiggy.OrderSuccessTest -->
+      <class name="Swiggy.CheckoutTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Swiggy.CheckoutTest@6d1310f6]" started-at="2025-05-16T21:51:12 IST" name="setup" finished-at="2025-05-16T21:51:13 IST" duration-ms="1315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testPlaceOrder()[pri:0, instance:Swiggy.CheckoutTest@6d1310f6]" started-at="2025-05-16T21:51:13 IST" name="testPlaceOrder" finished-at="2025-05-16T21:51:16 IST" duration-ms="2677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPlaceOrder -->
+        <test-method signature="testGetOrders()[pri:0, instance:Swiggy.CheckoutTest@6d1310f6]" started-at="2025-05-16T21:51:16 IST" name="testGetOrders" finished-at="2025-05-16T21:51:16 IST" depends-on-methods="Swiggy.CheckoutTest.testPlaceOrder" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetOrders -->
+      </class> <!-- Swiggy.CheckoutTest -->
+      <class name="Swiggy.CartTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Swiggy.CartTest@68ed96ca]" started-at="2025-05-16T21:51:12 IST" name="setup" finished-at="2025-05-16T21:51:13 IST" duration-ms="1315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAddItemToCart()[pri:0, instance:Swiggy.CartTest@68ed96ca]" started-at="2025-05-16T21:51:13 IST" name="testAddItemToCart" finished-at="2025-05-16T21:51:16 IST" duration-ms="2677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddItemToCart -->
+        <test-method signature="testGetCartItems()[pri:0, instance:Swiggy.CartTest@68ed96ca]" started-at="2025-05-16T21:51:16 IST" name="testGetCartItems" finished-at="2025-05-16T21:51:16 IST" depends-on-methods="Swiggy.CartTest.testAddItemToCart" duration-ms="343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetCartItems -->
+      </class> <!-- Swiggy.CartTest -->
+    </test> <!-- SwiggyAPI-ParallelTests -->
+  </suite> <!-- SwiggyAPI-TestSuite -->
+</testng-results>

@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SwiggyAPI-TestSuite" parallel="classes" thread-count="7">
+
+    <test name="SwiggyAPI-ParallelTests">
+        <classes>
+        <!--<class name="Swiggy.HomeTest"/>do it only for independent testing of this API as it is real API of swiggy -->
+            <class name="Swiggy.LoginTest"/>
+            <class name="Swiggy.RestaurantsTest"/>
+            <class name="Swiggy.MenuTests"/>
+            <class name="Swiggy.CartTest"/>
+            <class name="Swiggy.CheckoutTest"/>
+            <class name="Swiggy.OrderSuccessTest"/>
+        </classes>
+    </test>
+
+</suite>

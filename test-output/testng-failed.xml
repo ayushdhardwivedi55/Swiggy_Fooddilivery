@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="7" parallel="classes" name="Failed suite [SwiggyAPI-TestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="7" parallel="classes" name="SwiggyAPI-ParallelTests(failed)">
+    <classes>
+      <class name="Swiggy.HomeTest">
+        <methods>
+          <include name="testInstamartHomeAPI"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Swiggy.HomeTest -->
+    </classes>
+  </test> <!-- SwiggyAPI-ParallelTests(failed) -->
+</suite> <!-- Failed suite [SwiggyAPI-TestSuite] -->

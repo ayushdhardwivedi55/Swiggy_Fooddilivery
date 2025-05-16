@@ -18,7 +18,7 @@ public class LoginTest {
 
     @BeforeClass
     public void setup() {
-        RestAssured.baseURI = "http://localhost:3000"; // Your running mock JSON server
+        RestAssured.baseURI = "http://localhost:3000";
     }
 
     @Test
